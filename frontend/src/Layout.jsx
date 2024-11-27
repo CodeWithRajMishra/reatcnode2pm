@@ -6,8 +6,8 @@ const Layout=()=>{
           <Link to="insert">Insert</Link> |
           <Link to="display">Display</Link> |
           <Link to="search">Search</Link> |
-          <Link to="delete">Delete</Link> |
-          <Link to="update">Update</Link> 
+          <Link to="delete">Update/Delete</Link> 
+         
           <hr size="4" color="red" />
           <Outlet/>
           <br/>

@@ -9,7 +9,6 @@ const Search=()=>{
         axios.post(api, {rollno:rno}).then((res)=>{
             setMydata(res.data);
             console.log(res.data);
-            
         })
     }
 
